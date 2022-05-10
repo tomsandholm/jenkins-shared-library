@@ -1,3 +1,3 @@
-def call(String [] args) {
+def call(String[] args) {
   echo "arg is is , ${args}"
 }
