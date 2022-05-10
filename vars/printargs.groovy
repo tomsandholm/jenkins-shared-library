@@ -1,3 +1,5 @@
 def call(String[] args) {
-  echo "arg is:  ${args}"
+  for (x in args) {
+    echo "arg is: $x"
+  }
 }
