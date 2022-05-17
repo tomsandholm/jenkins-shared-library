@@ -4,9 +4,9 @@ def call(String[] args) {
   for (x in args) {
     echo "arg is: $x"
   }
-  tag=arg[0]
-  release=arg[1]
-  url=[2]
+  tag=args[0]
+  release=args[1]
+  url=args[2]
   sh """
     echo tag: $tag
     echo release: $release
