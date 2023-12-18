@@ -3,8 +3,7 @@
 def call() {
   script {
     sh """
-      echo -n "DCO_TAG " 
-      cat ./dco-tag
+      echo "DCO_TAG $(cat ./dco-tag)"
     """
   }
 }
