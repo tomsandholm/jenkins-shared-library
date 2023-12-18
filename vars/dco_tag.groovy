@@ -3,7 +3,8 @@
 def call() {
   script {
     sh """
-      echo "DCO_TAG  ${env.DCO_TAG}"
+      echo -n "DCO_TAG " 
+      cat ./dco-tag
     """
   }
 }
